@@ -1,2 +1,192 @@
-soon
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>The Joy of Clojure</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <link type="text/css" href="joy.css" rel="stylesheet" />
+    <script type="text/javascript" src="/irc.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div class="leftbox">
+        <a href="/buy"><img id="cover" src="cover.jpg" /></a>
+        <br />
+        <a href="/buy">Ebook free with purchase of <br/> paperback from Manning</a><br />
+        paperback available <br/> soon from <br/>
+        <a href="http://www.amazon.com/gp/product/1935182641?ie=UTF8&tag=fogus-20">Amazon</a>
 
+<img src="joy.png" style="float:left;"/>
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'joyofclojure OR joy clojure -from:fogus -from:chrishouser',
+  interval: 6000,
+  title: 'What people are saying about',
+  subject: 'The Joy of Clojure',
+  width: 200,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+<br />
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 200,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1986b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('fogus').start();
+</script>
+<br />
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 200,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1986b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('chrishouser').start();
+</script>
+      </div>
+      <div class="body">
+      <h1>The Joy of Clojure</h1>
+      <h2>Thinking the Clojure Way</h2>
+      <h4>A book by
+          <a href="http://blog.fogus.me/">Michael Fogus</a>
+          and
+          <a href="http://blog.n01se.net/">Chris Houser</a>
+      </h4>
+      <p>
+      We’re really enjoying Clojure, and we’d like to share our knowledge and
+      experience with you.  <i>The Joy of Clojure</i> ebook can now be <a
+          href="/buy">ordered from Manning</a>, which
+      gives you access to the entire book as a PDF now, plus other formats once they're available. 
+      If you're not quite ready to buy, you can <a
+          href="/buy">read chapters 1 and 9 
+          for free</a>.  Additionally, a large excerpt of <a
+  href="http://www.infoq.com/articles/in-depth-look-clojure-collections">
+      chapter 5 is available on InfoQ</a>.</p>
+
+<h6>TABLE OF CONTENTS</h6>
+        <i><a href="/buy">comprehensive contents available from Manning</a></i><br/>
+<ol>
+  <ol type="i">
+    <li>Foreword by Steve Yegge</li>
+    <li>Acknowledgments</li>
+    <li>Introduction</li>
+    <li>Notational Conventions</li>
+    <li>Getting Clojure</li>
+    <li>Road Map</li>
+  </ol>
+<h6>FOUNDATIONS</h6>
+<ol>
+  <li>Clojure Philosophy</li>
+  <li>Drinking From the Clojure Firehose</li>
+  <li>Dipping Our Toes Into the Pool</li>
+</ol>
+<h6>DATA TYPES</h6>
+<ol start="4">
+  <li>On Scalars</li>
+ <li>Composite Data Types</li>
+</ol>
+<h6>FUNCTIONAL PROGRAMMING</h6>
+<ol start="6">
+  <li>Being Lazy and Set in Your Ways</li>
+ <li>Functional Programming</li>
+</ol>
+<h6>LARGE-SCALE DESIGN</h6>
+<ol start="8">
+  <li>Macros</li>
+ <li>Combining Data and Code</li>
+ <li>Java.next</li>
+ <li>Mutation</li>
+</ol>
+<h6>TANGENTIAL CONSIDERATIONS</h6>
+<ol start="12">
+  <li>Performance</li>
+ <li>Clojure Changes the Way You Think</li>
+</ol>
+<h6>APPENDICES</h6>
+<ol type="A"> 
+ <li>Annotated Bibliography</li>
+</ol>
+    </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-921112-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
